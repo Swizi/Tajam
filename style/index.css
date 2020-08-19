@@ -8,7 +8,7 @@
 .slogans_block__container {
   height: 670px;
   width: 100%;
-  background: url("../images/main_block_background.png");
+  background: url("../images/main_block_background.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@
 
 .watch_story_block {
   height: 550px;
-  background: url("../images/watch_story_background.png");
+  background: url("../images/watch_story_background.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -415,7 +415,7 @@
 .team_block_container {
   width: 100%;
   padding: 68px 0 68px 0;
-  background: url("../images/team_background.png");
+  background: url("../images/team_background.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -589,7 +589,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../images/reviews_background.png");
+  background: url("../images/reviews_background.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -672,7 +672,7 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: url("../images/jane_galadriel.png");
+  background: url("../images/jane_galadriel.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -684,7 +684,7 @@
 }
 
 .reviews_slider .slick-dots li:nth-child(1) button {
-  background: url("../images/reviews_woman_1.png");
+  background: url("../images/reviews_woman_1.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -692,7 +692,7 @@
 }
 
 .reviews_slider .slick-dots li:nth-child(2) button {
-  background: url("../images/reviews_man_1.png");
+  background: url("../images/reviews_man_1.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -700,7 +700,7 @@
 }
 
 .reviews_slider .slick-dots li:nth-child(4) button {
-  background: url("../images/reviews_woman_2.png");
+  background: url("../images/reviews_woman_2.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -708,7 +708,7 @@
 }
 
 .reviews_slider .slick-dots li:nth-child(5) button {
-  background: url("../images/reviews_man_2.png");
+  background: url("../images/reviews_man_2.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -732,12 +732,12 @@
 
 .reviews_slider .slick-arrow.slick-prev {
   left: 280px;
-  background: url("../images/reviews_left_arrow.png");
+  background: url("../images/reviews_left_arrow.webp");
 }
 
 .reviews_slider .slick-arrow.slick-next {
   right: 300px;
-  background: url("../images/reviews_right_arrow.png");
+  background: url("../images/reviews_right_arrow.webp");
 }
 
 .feedback_block_container {
@@ -832,7 +832,7 @@
 }
 
 .footer_block_container {
-  background: url("../images/footer_background.png");
+  background: url("../images/footer_background.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
