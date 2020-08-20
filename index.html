@@ -11,20 +11,20 @@
 
 <body class="body">
     <div class="slogans_block__container">
-        <div class="slogans_block">
+        <div class="slogans_block" id="home">
             <header class="header_block">
                 <div class="header__name_block">
                     <img src="images/header_icon.webp" alt="Header icon" />
                     <h1 class="header__header_text">tajam</h1>
                 </div>
                 <ul class="header__menu_block">
-                    <li><a href="#" class="header__menu-item">Home</a></li>
-                    <li><a href="#" class="header__menu-item">About</a></li>
-                    <li><a href="#" class="header__menu-item">Expertise</a></li>
-                    <li><a href="#" class="header__menu-item">Teams</a></li>
-                    <li><a href="#" class="header__menu-item">Works</a></li>
-                    <li><a href="#" class="header__menu-item">People say</a></li>
-                    <li><a href="#" class="header__menu-item">Contact</a></li>
+                    <li><a href="#home" class="header__menu-item">Home</a></li>
+                    <li><a href="#about" class="header__menu-item">About</a></li>
+                    <li><a href="#expertise" class="header__menu-item">Expertise</a></li>
+                    <li><a href="#team" class="header__menu-item">Teams</a></li>
+                    <li><a href="#works" class="header__menu-item">Works</a></li>
+                    <li><a href="#people_say" class="header__menu-item">People say</a></li>
+                    <li><a href="#contact" class="header__menu-item">Contact</a></li>
                 </ul>
             </header>
             <header class="mobile_header_block">
@@ -40,13 +40,13 @@
                 </div>
             </header>
             <ul class="dropdown_menu_list">
-                <li><a href="#" class="dropdown_menu_list__item">Home</a></li>
-                <li><a href="#" class="dropdown_menu_list__item">About</a></li>
-                <li><a href="#" class="dropdown_menu_list__item">Expertise</a></li>
-                <li><a href="#" class="dropdown_menu_list__item">Teams</a></li>
-                <li><a href="#" class="dropdown_menu_list__item">Works</a></li>
-                <li><a href="#" class="dropdown_menu_list__item">People say</a></li>
-                <li><a href="#" class="dropdown_menu_list__item">Contact</a></li>
+                <li><a href="#home" class="dropdown_menu_list__item" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" class="dropdown_menu_list__item" onclick="toggleMenu();">About</a></li>
+                <li><a href="#expertise" class="dropdown_menu_list__item" onclick="toggleMenu();">Expertise</a></li>
+                <li><a href="#team" class="dropdown_menu_list__item" onclick="toggleMenu();">Team</a></li>
+                <li><a href="#works" class="dropdown_menu_list__item" onclick="toggleMenu();">Works</a></li>
+                <li><a href="#people_say" class="dropdown_menu_list__item" onclick="toggleMenu();">People say</a></li>
+                <li><a href="#contact" class="dropdown_menu_list__item" onclick="toggleMenu();">Contact</a></li>
             </ul>
             <div class="slogans_slider">
                 <div class="slider__item">
@@ -93,7 +93,7 @@
 
         </div>
     </div>
-    <div class="story_block">
+    <div class="story_block" id="about">
         <img src="images/story_image.webp" alt="StoryBlock Image" class="story_block_image" />
         <div class="story_block__text_block">
             <h4 class="story_block__header_text">Our story</h4>
@@ -114,7 +114,7 @@
             <span class="watch_story_block__text">Watch our story</span>
         </a>
     </div>
-    <div class="expertise_block">
+    <div class="expertise_block" id="expertise">
         <div class="expertise__header_block">
             <h5 class="expertise__header_text">Expertise</h5>
             <span class="expertise__header_description_text">Lorem ipsum dolor sit amet proin gravida nibh vel
@@ -160,7 +160,7 @@
             </div>
         </div>
     </div>
-    <div class="team_block_container">
+    <div class="team_block_container" id="team">
         <div class="team_block">
             <div class="team__header_block">
                 <h5 class="team__header_text">Meet our amazing team</h5>
@@ -196,7 +196,7 @@
 
         </div>
     </div>
-    <div class="works_block_container">
+    <div class="works_block_container" id="works">
         <div class="works_block__header_block">
             <h3 class="works_block__header_text">Our works</h3>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__header_link"
@@ -254,10 +254,14 @@
                 target="_blank">
                 <img src="images/work_4.webp" alt="Work example" />
             </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work"
+            target="_blank">
+            <img src="images/work_1.webp" alt="Work example" />
+        </a>
         </div>
-        <a href="#" class="action_button">Load More</a>
+        <button id="load_more_button" class="action_button">Load More</button>
     </div>
-    <div class="reviews_block_container">
+    <div class="reviews_block_container" id="people_say">
         <div class="reviews_block">
             <div class="reviews_slider">
                 <div class="slider__item">
@@ -344,7 +348,7 @@
         </div>
     </div>
     <div class="feedback_block_container">
-        <div class="feedback_block">
+        <div class="feedback_block" id="contact">
             <form class="feedback_form">
                 <h6 class="feedback__header_text">Give us a good news</h6>
                 <input type="text" class="feedback__input-text" placeholder="Name" />
