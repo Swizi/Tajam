@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "npx babel scripts/src -d scripts/dist --presets @babel/preset-env"
+        "build": "npx babel scripts/src -d scripts/dist --presets @babel/preset-env",
+        "arrow": "npx babel --plugins @babel/plugin-transform-arrow-functions scripts/src/index.js"
     },
     "author": "",
     "license": "ISC",

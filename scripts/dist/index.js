@@ -1,5 +1,8 @@
 "use strict";
 
+var burger = document.querySelector(".burger");
+var menu = document.querySelector(".dropdown_menu_list");
+var reviews_slider = document.querySelectorAll(".reviews_slider");
 $(document).ready(function () {
   $(".slogans_slider").slick({
     arrows: false,
@@ -36,19 +39,11 @@ $(document).ready(function () {
   var $page = $('html, body');
   $('a[href*="#"]').click(function () {
     $page.animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
+      scrollTop: $($.attr(this, 'href')).offset().top - 70
     }, 400);
     return false;
   });
 });
-var burger = document.querySelector(".burger");
-var menu = document.querySelector(".dropdown_menu_list");
-var reviews_slider = document.querySelectorAll(".reviews_slider"); // const reviews_left_arrow = reviews_slider.querySelector(".slick-prev");
-
-console.log(reviews_slider[0].getElementsByClassName("slick-prev")); // console.log(reviews_left_arrow);
-// const left_arrow = document.getElementsByClassName(".slick-prev");
-// console.log(left_arrow);
-
 burger.addEventListener("click", function () {
   toggleMenu();
 });

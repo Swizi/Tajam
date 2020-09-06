@@ -57,7 +57,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
   height: 670px;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -272,7 +272,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
 .watch_story_block {
   height: 550px;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -488,7 +488,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
   width: 100%;
   padding: 68px 0 68px 0;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -670,7 +670,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   min-width: 0;
   padding: 70px 0 65px 0;
@@ -687,7 +687,6 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
 .reviews_block {
   min-width: 0;
   width: 960px;
-  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -762,7 +761,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
   height: 45px;
   border-radius: 50%;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border: none;
@@ -781,7 +780,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
 
 .reviews_slider .slick-dots li:nth-child(1) button {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -796,7 +795,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
 
 .reviews_slider .slick-dots li:nth-child(2) button {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -811,7 +810,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
 
 .reviews_slider .slick-dots li:nth-child(4) button {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -826,7 +825,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
 
 .reviews_slider .slick-dots li:nth-child(5) button {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -976,7 +975,7 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
 
 .footer_block_container {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 65px 0 69px 0;
   display: flex;
@@ -1161,16 +1160,6 @@ Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
 }
 /* Keyframes */
 
-/* @keyframes dropdown_menu_animation {
-  0% {
-    opacity: 0;
-    transform: translateY(-40%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
 .footer_block__form-submit:hover,
 .clients_slider:hover,
 .action_button:hover,
