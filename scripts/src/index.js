@@ -1,18 +1,18 @@
 const burger = document.querySelector(".burger");
-const menu = document.querySelector(".dropdown_menu_list");
-const reviews_slider = document.querySelectorAll(".reviews_slider");
+const menu = document.querySelector(".dropdown_list");
+const reviews_slider = document.querySelectorAll(".reviews__slider");
 $(document).ready(function () {
-  $(".slogans_slider").slick({
+  $(".slogans__slider").slick({
     arrows: false,
     dots: true,
     autoplay: true,
     autoplaySpeed: 3000
   });
-  $(".reviews_slider").slick({
+  $(".reviews__slider").slick({
     arrows: true,
     dots: true
   });
-  $(".clients_slider").slick({
+  $(".clients__slider").slick({
     autoplay: true,
     autoplaySpeed: 3000,
     infinite: true,
@@ -53,15 +53,15 @@ burger.addEventListener("click", function () {
   }
 
   $(function () {
-    $(".works_block__work").slice(0, 3).show();
-    $("#load_more_button").on('click', function (e) {
+    $(".work").slice(0, 3).show();
+    $("#load-more_button").on('click', function (e) {
       e.preventDefault();
-      $(".works_block__work:hidden").slice(0, 3).slideDown();
+      $(".work:hidden").slice(0, 3).slideDown();
 
-      if (document.getElementsByClassName("works_block__work")[11].clientWidth !== 0) {
-        document.getElementById("load_more_button").style.display = "none";
+      if (document.getElementsByClassName("work")[11].clientWidth !== 0) {
+        document.getElementById("load-more_button").style.display = "none";
       } else {
-        document.getElementById("load_more_button").style.display = "block";
+        document.getElementById("load-more_button").style.display = "block";
       }
     });
   });

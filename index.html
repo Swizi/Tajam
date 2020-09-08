@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <title>Tajam</title>
   <link rel="stylesheet" href="style/index.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 
 <body class="body">
-  <div class="slogans_block__container">
-    <div class="slogans_block" id="home">
+  <div class="slogans-container">
+    <div class="slogans" id="home">
       <header class="header_block">
         <div class="header__name_block">
           <picture>
             <source type="image/webp" srcset="images/header_icon.webp">
             <img src="images/header_icon.png" alt="Header icon" />
           </picture>
-          <h1 class="header__header_text">tajam</h1>
+          <h1 class="header__name">tajam</h1>
         </div>
-        <ul class="header__menu_block">
-          <li><a href="#home" class="header__menu-item">Home</a></li>
-          <li><a href="#about" class="header__menu-item">About</a></li>
-          <li><a href="#expertise" class="header__menu-item">Expertise</a></li>
-          <li><a href="#team" class="header__menu-item">Teams</a></li>
-          <li><a href="#works" class="header__menu-item">Works</a></li>
-          <li><a href="#people_say" class="header__menu-item">People say</a></li>
-          <li><a href="#contact" class="header__menu-item">Contact</a></li>
+        <ul class="header__menu">
+          <li><a href="#home" class="header__item">Home</a></li>
+          <li><a href="#about" class="header__item">About</a></li>
+          <li><a href="#expertise" class="header__item">Expertise</a></li>
+          <li><a href="#team" class="header__item">Teams</a></li>
+          <li><a href="#works" class="header__item">Works</a></li>
+          <li><a href="#people_say" class="header__item">People say</a></li>
+          <li><a href="#contact" class="header__item">Contact</a></li>
         </ul>
       </header>
       <header class="mobile_header_block">
@@ -36,25 +37,25 @@
             <source type="image/webp" srcset="images/header_icon.webp">
             <img src="images/header_icon.png" alt="Header icon" />
           </picture>
-          <h1 class="header__header_text">tajam</h1>
+          <h1 class="header__name">tajam</h1>
         </div>
         <div class="burger">
-          <span class="burger_line burger_line_first"></span>
-          <span class="burger_line burger_line_second"></span>
-          <span class="burger_line burger_line_third"></span>
-          <span class="burger_line burger_line_fourth"></span>
+          <span class="burger__line burger__line_first"></span>
+          <span class="burger__line burger__line_second"></span>
+          <span class="burger__line burger__line_third"></span>
+          <span class="burger__line burger__line_fourth"></span>
         </div>
       </header>
-      <ul class="dropdown_menu_list">
-        <li><a href="#home" class="dropdown_menu_list__item" onclick="toggleMenu();">Home</a></li>
-        <li><a href="#about" class="dropdown_menu_list__item" onclick="toggleMenu();">About</a></li>
-        <li><a href="#expertise" class="dropdown_menu_list__item" onclick="toggleMenu();">Expertise</a></li>
-        <li><a href="#team" class="dropdown_menu_list__item" onclick="toggleMenu();">Team</a></li>
-        <li><a href="#works" class="dropdown_menu_list__item" onclick="toggleMenu();">Works</a></li>
-        <li><a href="#people_say" class="dropdown_menu_list__item" onclick="toggleMenu();">People say</a></li>
-        <li><a href="#contact" class="dropdown_menu_list__item" onclick="toggleMenu();">Contact</a></li>
+      <ul class="dropdown_list">
+        <li><a href="#home" class="dropdown_list__item" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" class="dropdown_list__item" onclick="toggleMenu();">About</a></li>
+        <li><a href="#expertise" class="dropdown_list__item" onclick="toggleMenu();">Expertise</a></li>
+        <li><a href="#team" class="dropdown_list__item" onclick="toggleMenu();">Team</a></li>
+        <li><a href="#works" class="dropdown_list__item" onclick="toggleMenu();">Works</a></li>
+        <li><a href="#people_say" class="dropdown_list__item" onclick="toggleMenu();">People say</a></li>
+        <li><a href="#contact" class="dropdown_list__item" onclick="toggleMenu();">Contact</a></li>
       </ul>
-      <div class="slogans_slider">
+      <div class="slogans__slider">
         <div class="slider__item">
           <h2 class="slogans__slogan_text">We Are Awesome Creative Agency</h2>
           <hr class="slogans__separator" />
@@ -99,14 +100,14 @@
 
     </div>
   </div>
-  <div class="story_block" id="about">
-    <picture class="story_block_image">
+  <div class="story" id="about">
+    <picture class="story_image">
       <source type="image/webp" srcset="images/story_image.webp">
-      <img src="images/story_image.png" alt="StoryBlock Image" class="story_block_image" />
+      <img src="images/story_image.png" alt="StoryBlock Image" class="story_image" />
     </picture>
-    <div class="story_block__text_block">
-      <h4 class="story_block__header_text">Our story</h4>
-      <p class="story_block__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+    <div class="story__text_block">
+      <h4 class="story__header_text header_family">Our story</h4>
+      <p class="story__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
         aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
         nibh id elit. Duis sed odio sit amet nibh vulputate cursus<br><br>
 
@@ -116,89 +117,89 @@
       <a href="#" class="action_button">Learn More</a>
     </div>
   </div>
-  <div class="watch_story_block">
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="watch_story_block_wrapper"
+  <div class="watch_story">
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="watch_story_wrapper"
       target="_blank">
       <picture>
         <source type="image/webp" srcset="images/play_icon.webp">
         <img src="images/play_icon.png" alt="Play icon" />
       </picture>
-      <span class="watch_story_block__text">Watch our story</span>
+      <span class="watch_story__text">Watch our story</span>
     </a>
   </div>
-  <div class="expertise_block" id="expertise">
-    <div class="expertise__header_block">
-      <h5 class="expertise__header_text">Expertise</h5>
-      <span class="expertise__header_description_text">Lorem ipsum dolor sit amet proin gravida nibh vel
+  <div class="expertise" id="expertise">
+    <div class="expertise__header-block">
+      <h5 class="expertise__header-text header_family">Expertise</h5>
+      <span class="expertise__description_text">Lorem ipsum dolor sit amet proin gravida nibh vel
         velit</span>
       <hr class="expertise__separator" />
     </div>
-    <div class="expertise___advantages_block">
-      <div class="expertise__advantage_block">
+    <div class="expertise__advantages">
+      <div class="expertise__advantage">
         <picture>
           <source type="image/webp" srcset="images/web_advantage.webp">
           <img src="images/web_advantage.png" alt="Web advantage" />
         </picture>
-        <h6 class="expertise__advantage-header-text">Web design & development</h6>
-        <p class="expertise__advantage-description-text">This is Photoshop's version of Lorem Ipsum. Proin
+        <h6 class="expertise__advantage_header-text">Web design & development</h6>
+        <p class="expertise__advantage_description-text">This is Photoshop's version of Lorem Ipsum. Proin
           gravida nibh vel velit auctor aliquet Aenean.</p>
       </div>
-      <div class="expertise__advantage_block">
+      <div class="expertise__advantage">
         <picture>
           <source type="image/webp" srcset="images/branding_advantage.webp">
           <img src="images/branding_advantage.png" alt="Web advantage" />
         </picture>
-        <h6 class="expertise__advantage-header-text">Branding identity</h6>
-        <p class="expertise__advantage-description-text">This is Photoshop's version of Lorem Ipsum. Proin
+        <h6 class="expertise__advantage_header-text">Branding identity</h6>
+        <p class="expertise__advantage_description-text">This is Photoshop's version of Lorem Ipsum. Proin
           gravida nibh vel velit auctor aliquet Aenean.</p>
       </div>
-      <div class="expertise__advantage_block">
+      <div class="expertise__advantage">
         <picture>
           <source type="image/webp" srcset="images/mobile_advantage.webp">
           <img src="images/mobile_advantage.png" alt="Web advantage" />
         </picture>
-        <h6 class="expertise__advantage-header-text">Mobile app</h6>
-        <p class="expertise__advantage-description-text">This is Photoshop's version of Lorem Ipsum. Proin
+        <h6 class="expertise__advantage_header-text">Mobile app</h6>
+        <p class="expertise__advantage_description-text">This is Photoshop's version of Lorem Ipsum. Proin
           gravida nibh vel velit auctor aliquet Aenean.</p>
       </div>
-      <div class="expertise__advantage_block">
+      <div class="expertise__advantage">
         <picture>
           <source type="image/webp" srcset="images/search_engine_advantage.webp">
           <img src="images/search_engine_advantage.png" alt="Web advantage" />
         </picture>
-        <h6 class="expertise__advantage-header-text">Search engine optimization</h6>
-        <p class="expertise__advantage-description-text">This is Photoshop's version of Lorem Ipsum. Proin
+        <h6 class="expertise__advantage_header-text">Search engine optimization</h6>
+        <p class="expertise__advantage_description-text">This is Photoshop's version of Lorem Ipsum. Proin
           gravida nibh vel velit auctor aliquet Aenean.</p>
       </div>
-      <div class="expertise__advantage_block">
+      <div class="expertise__advantage">
         <picture>
           <source type="image/webp" srcset="images/game_advantage.webp">
           <img src="images/game_advantage.png" alt="Web advantage" />
         </picture>
-        <h6 class="expertise__advantage-header-text">Game development</h6>
-        <p class="expertise__advantage-description-text">This is Photoshop's version of Lorem Ipsum. Proin
+        <h6 class="expertise__advantage_header-text">Game development</h6>
+        <p class="expertise__advantage_description-text">This is Photoshop's version of Lorem Ipsum. Proin
           gravida nibh vel velit auctor aliquet Aenean.</p>
       </div>
-      <div class="expertise__advantage_block">
+      <div class="expertise__advantage">
         <picture>
           <source type="image/webp" srcset="images/love_advantage.webp">
           <img src="images/love_advantage.png" alt="Web advantage" />
         </picture>
-        <h6 class="expertise__advantage-header-text">Made with love</h6>
-        <p class="expertise__advantage-description-text">This is Photoshop's version of Lorem Ipsum. Proin
+        <h6 class="expertise__advantage_header-text">Made with love</h6>
+        <p class="expertise__advantage_description-text">This is Photoshop's version of Lorem Ipsum. Proin
           gravida nibh vel velit auctor aliquet Aenean.</p>
       </div>
     </div>
   </div>
-  <div class="team_block_container" id="team">
-    <div class="team_block">
-      <div class="team__header_block">
-        <h5 class="team__header_text">Meet our amazing team</h5>
+  <div class="team-container" id="team">
+    <div class="team">
+      <div class="team__header-block">
+        <h5 class="team__header-text header_family">Meet our amazing team</h5>
         <span class="team__description_text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</span>
-        <hr class="team_block__separator" />
+        <hr class="team__separator" />
       </div>
-      <div class="team__members_block">
-        <div class="team__member_block">
+      <div class="team__members">
+        <div class="team__member">
           <picture>
             <source type="image/webp" srcset="images/team_member.webp">
             <img src="images/team_member.png" alt="Team Member" />
@@ -206,7 +207,7 @@
           <h6 class="team__member_name">Semf Ucuk</h6>
           <span class="team__member_position">Ceo & Founder</span>
         </div>
-        <div class="team__member_block">
+        <div class="team__member">
           <picture>
             <source type="image/webp" srcset="images/team_member.webp">
             <img src="images/team_member.png" alt="Team Member" />
@@ -214,7 +215,7 @@
           <h6 class="team__member_name">Semf Ucuk</h6>
           <span class="team__member_position">Ceo & Founder</span>
         </div>
-        <div class="team__member_block">
+        <div class="team__member">
           <picture>
             <source type="image/webp" srcset="images/team_member.webp">
             <img src="images/team_member.png" alt="Team Member" />
@@ -222,7 +223,7 @@
           <h6 class="team__member_name">Semf Ucuk</h6>
           <span class="team__member_position">Ceo & Founder</span>
         </div>
-        <div class="team__member_block">
+        <div class="team__member">
           <picture>
             <source type="image/webp" srcset="images/team_member.webp">
             <img src="images/team_member.png" alt="Team Member" />
@@ -231,110 +232,109 @@
           <span class="team__member_position">Ceo & Founder</span>
         </div>
       </div>
-      <div class="team__action_block">
-        <h6 class="team__action_header_text">Become part of our dream team, let’s join us !</h6>
+      <div class="team__action">
+        <h6 class="team__action_header-text">Become part of our dream team, let’s join us !</h6>
         <a href="#" class="action_button">We are hiring</a>
       </div>
-
     </div>
   </div>
-  <div class="works_block_container" id="works">
-    <div class="works_block__header_block">
-      <h3 class="works_block__header_text">Our works</h3>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__header_link"
+  <div class="works-container" id="works">
+    <div class="works__header-block">
+      <h3 class="works__header-text header_family">Our works</h3>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works__header-link"
         target="_blank">
-        <span class="works_block__header_link-text">See All Projects in dribble</span>
+        <span class="works__header-link-text">See All Projects in dribble</span>
         <picture>
           <source type="image/webp" srcset="images/works_right_arrow.webp">
           <img src="images/works_right_arrow.png" alt="Arrow" />
         </picture>
       </a>
     </div>
-    <div class="works_block">
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+    <div class="works">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_1.webp">
           <img src="images/work_1.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_2.webp">
           <img src="images/work_2.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_3.webp">
           <img src="images/work_3.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_4.webp">
           <img src="images/work_4.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_5.webp">
           <img src="images/work_5.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_1.webp">
           <img src="images/work_1.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_7.webp">
           <img src="images/work_7.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_8.webp">
           <img src="images/work_8.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_1.webp">
           <img src="images/work_1.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_2.webp">
           <img src="images/work_2.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_3.webp">
           <img src="images/work_3.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_4.webp">
           <img src="images/work_4.png" alt="Work example" />
         </picture>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="works_block__work" target="_blank">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" class="work" target="_blank">
         <picture>
           <source type="image/webp" srcset="images/work_1.webp">
           <img src="images/work_1.png" alt="Work example" />
         </picture>
       </a>
     </div>
-    <button id="load_more_button" class="action_button">Load More</button>
+    <button id="load-more_button" class="action_button">Load More</button>
   </div>
-  <div class="reviews_block_container" id="people_say">
-    <div class="reviews_block">
-      <div class="reviews_slider">
+  <div class="reviews-container" id="people_say">
+    <div class="reviews">
+      <div class="reviews__slider">
         <div class="slider__item">
           <picture>
             <source type="image/webp" srcset="images/quote.webp">
@@ -433,21 +433,21 @@
       </div>
     </div>
   </div>
-  <div class="feedback_block_container">
-    <div class="feedback_block" id="contact">
-      <form class="feedback_form">
-        <h6 class="feedback__header_text">Give us a good news</h6>
+  <div class="feedback-container">
+    <div class="feedback" id="contact">
+      <form class="feedback__form">
+        <h6 class="feedback__header-text header_family">Give us a good news</h6>
         <input type="text" class="feedback__input-text" placeholder="Name" />
         <input type="email" class="feedback__input-text" placeholder="Email" />
         <input type="text" class="feedback__input-text" placeholder="Subject" />
         <textarea class="feedback__input-message" placeholder="Your message"></textarea>
         <input type="submit" class="action_button" value="Submit" />
       </form>
-      <div class="clients_block_container">
-        <h6 class="feedback__header_text">
+      <div class="clients-container">
+        <h6 class="feedback__header-text header_family">
           Our happy clients
         </h6>
-        <div class="clients_block">
+        <div class="clients">
           <div class="clients__logo">
             <picture>
               <source type="image/webp" srcset="images/zara_logo.webp">
@@ -510,7 +510,7 @@
             </picture>
           </div>
         </div>
-        <div class="clients_slider">
+        <div class="clients__slider">
           <div class="slider__item">
             <picture>
               <source type="image/webp" srcset="images/zara_logo.webp">
@@ -554,7 +554,6 @@
             </picture>
           </div>
           <div class="slider__item">
-            <img src="images/puma_logo.webp" alt="Puma" />
             <picture>
               <source type="image/webp" srcset="images/puma_logo.webp">
               <img src="images/puma_logo.png" alt="Puma" />
@@ -576,91 +575,91 @@
       </div>
     </div>
   </div>
-  <div class="footer_block_container">
-    <footer class="footer_block">
-      <div class="footer_block__description_block">
-        <div class="footer_block__description-header_block">
+  <div class="footer-container">
+    <footer class="footer">
+      <div class="footer__description">
+        <div class="footer__description-header-block">
           <picture>
             <source type="image/webp" srcset="images/header_icon.webp">
             <img src="images/header_icon.png" alt="Header icon" />
           </picture>
-          <h6 class="header__header_text">tajam</h6>
+          <h6 class="header__name">tajam</h6>
         </div>
-        <p class="footer_block__description-description_text">
+        <p class="footer__description_text">
           lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit
           amet auctror a ornare odio non mauris vitae erat in elit
         </p>
-        <ul class="footer_block__description-list">
-          <li><a href="#" class="footer_block__description-list-item">Help</a></li>
-          <li><a href="#" class="footer_block__description-list-item">Terms & Condition</a></li>
-          <li><a href="#" class="footer_block__description-list-item">Privacy</a></li>
+        <ul class="footer__description_list">
+          <li><a href="#" class="footer__item">Help</a></li>
+          <li><a href="#" class="footer__item">Terms & Condition</a></li>
+          <li><a href="#" class="footer__item">Privacy</a></li>
         </ul>
       </div>
-      <div class="footer_block__location_block">
-        <h6 class="footer_block__header_text">Our studio</h6>
-        <div class="footer_block__info_block">
+      <div class="footer__location">
+        <h6 class="footer__header-text">Our studio</h6>
+        <div class="footer__info">
           <picture>
             <source type="image/webp" srcset="images/footer_location_icon.webp">
             <img src="images/footer_location_icon.png" alt="Location" />
           </picture>
-          <p class="footer_block__info-text">
+          <p class="footer__info-text">
             Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
             11480 - Indonesia
           </p>
         </div>
-        <div class="footer_block__info_block">
+        <div class="footer__info">
           <picture>
             <source type="image/webp" srcset="images/footer_phone_icon.webp">
             <img src="images/footer_phone_icon.png" alt="Phone" />
           </picture>
-          <p class="footer_block__info-text">
+          <p class="footer__info-text">
             (+62) 21-2224 3333
           </p>
         </div>
       </div>
-      <div class="footer_block__social_block">
-        <h6 class="footer_block__header_text">Stay in touch</h6>
-        <form class="footer_block__form">
-          <input type="email" placeholder="Subscribe our newsletter" class="footer_block__form-email" />
-          <a type="submit" class="footer_block__form-submit">
+      <div class="footer__social">
+        <h6 class="footer__header-text">Stay in touch</h6>
+        <form class="footer__form">
+          <input type="email" placeholder="Subscribe our newsletter" class="footer__input-email" />
+          <button type="submit" class="footer__submit">
             <picture>
               <source type="image/webp" srcset="images/footer_send_button.webp">
               <img src="images/footer_send_button.png" alt="Send button" />
             </picture>
-          </a>
+          </button>
         </form>
-        <div class="footer_block__social_media_block">
-          <a href="#" class="footer_block__social_media_link">
+        <div class="footer__social_media">
+          <a href="#" class="footer__social_media_link">
             <picture>
               <source type="image/webp" srcset="images/footer_facebook_icon.webp">
               <img src="images/footer_facebook_icon.png" alt="Facebook icon" />
             </picture>
           </a>
-          <a href="#" class="footer_block__social_media_link">
+          <a href="#" class="footer__social_media_link">
             <picture>
               <source type="image/webp" srcset="images/footer_twitter_icon.webp">
               <img src="images/footer_twitter_icon.png" alt="Twitter icon" />
             </picture>
           </a>
-          <a href="#" class="footer_block__social_media_link">
+          <a href="#" class="footer__social_media_link">
             <picture>
               <source type="image/webp" srcset="images/footer_dribble_icon.webp">
               <img src="images/footer_dribble_icon.png" alt="Dribble icon" />
             </picture>
           </a>
-          <a href="#" class="footer_block__social_media_link">
+          <a href="#" class="footer__social_media_link">
             <picture>
               <source type="image/webp" srcset="images/footer_instagram_icon.webp">
                 <img src="images/footer_instagram_icon.png" alt="Instagram icon" />
             </picture>
           </a>
-          <a href="#" class="footer_block__social_media_link">
+          <a href="#" class="footer__social_media_link">
             <picture>
               <source type="image/webp" srcset="images/footer_google_icon.webp">
               <img src="images/footer_google_icon.png" alt="Google icon" />
             </picture>
           </a>
-          <a href="#" class="footer_block__social_media_link">
+          <a href="#" class="footer__social_media_link">
             <picture>
               <source type="image/webp" srcset="images/footer_youtube_icon.webp">
                 <img src="images/footer_youtube_icon.png" alt="Youtube icon" />
