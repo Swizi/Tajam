@@ -1,3 +1,3 @@
-# Free design layout landing page
+# Tajam(free design layout landing page)
 
-This site shows my layout skills
+HTML, CSS, Babel(ES6 to ES5), Modernizr(for webp images)
